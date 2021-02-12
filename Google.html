@@ -2,8 +2,17 @@
  rel="stylesheet" type="text/css">
 
 <style>
-    p{
+    .google-main{
         font-family: Product Sans;
+    }
+    .e-rotate {
+        transform: rotate(-45deg);
+    }
+    .google-font{
+        font-family: Arial;
+    }
+    .main-size{
+        font-size: 12px;
     }
     .blue{
         color: #4285F4;
@@ -17,8 +26,28 @@
     .green{
         color: #34A853;
     }
+    a:link {
+        color: rgb(50, 50, 50);
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 </style>
-
+<!--
 <p>
 <span class="blue font-size: 30">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
 </p>
+-->
+
+<div class="google-font">
+    <div style="font-weight: normal;">
+        <p style="font-size: 2.5px;"><a href="#">Gmail</a></p>
+        <p style="font-size: 2.5px;"><a href="#">Images</a></p>
+    </div>
+    <div class="main-size google-main">
+        <h2><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red e-rotate">e</span></h2>
+    </div>
+</div>
